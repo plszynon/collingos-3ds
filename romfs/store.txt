@@ -1,0 +1,10 @@
+# CollingOS Store catalog
+# Format (one app per line, fields separated by |):
+#   id|name|version|author|category|https download URL of the .3dsx|https icon URL (optional, png/jpg/bmp)|description
+# id: lowercase letters, digits, - and _ only. The app installs to sdmc:/3ds/<id>/<id>.3dsx
+# version: use "latest" when the URL always serves the newest release.
+fbi|FBI|latest|Steveice10|Tools|https://github.com/Steveice10/FBI/releases/latest/download/FBI.3dsx||Open source title manager for the 3DS: install, browse and delete CIA files and titles.
+checkpoint|Checkpoint|latest|FlagBrew|Tools|https://github.com/FlagBrew/Checkpoint/releases/latest/download/Checkpoint.3dsx||Fast and simple save game manager: back up and restore your saves.
+universal-updater|Universal-Updater|latest|Universal-Team|Tools|https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.3dsx||Download and update 3DS homebrew and other apps from Universal-DB and custom stores.
+ftpd|ftpd|latest|mtheall|Network|https://github.com/mtheall/ftpd/releases/latest/download/ftpd.3dsx||FTP server for the 3DS: transfer files between your computer and the SD card over Wi-Fi.
+anemone3ds|Anemone3DS|latest|astronautlevel2|Themes|https://github.com/astronautlevel2/Anemone3DS/releases/latest/download/Anemone3DS.3dsx||Theme and splash manager for the 3DS Home Menu.
